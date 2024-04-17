@@ -1,0 +1,298 @@
+/* nav section starts */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+   display: flex;
+   gap: 2rem;
+   justify-content:right;
+   align-items: center;
+   list-style-type: none;
+   margin-right: 5rem;
+
+}
+
+.list li{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.list button{
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    background-color:darkorange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav .vanish{
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+
+/* nav section ends */
+/* tracker section starts */
+
+.tracker{
+    background-color: rgb(224, 238, 202);
+    padding: 2rem;
+}
+.tracker h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tracker p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.tracker .flex-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tracker .flex-container .flex-item{
+    border: 2px solid white;
+    margin: 15px;
+    width: 30%;
+    min-height: 40vh;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.tracker .flex-container .flex-item .mon{
+    font-size: 25px;
+    margin: .5rem;
+}
+.tracker .flex-container .flex-item .cqt{
+    font-size: 35px;
+    margin:0%;
+    margin-bottom: 7rem;
+}
+.tracker .flex-container .flex-item .but{
+    text-decoration: none;
+    color: white;
+    background-color: darkorange;
+    padding-inline: .9rem;
+    padding-block: .5rem;
+    border-radius: 15px;
+    /* margin: 2rem; */
+}
+
+.tracker .flex-container .flex-item .cqp{
+    font-size:30px ;
+    margin: 0%;
+}
+
+.tracker .flex-container .flex-item .bill{
+    margin: 0%;
+    font-size: 20px;
+}
+
+.tracker .flex-container .flex-item .save{
+    font-size: 23px;
+}
+
+/* tracker section ends */
+/* site section starts */
+
+.site{
+    padding: 3rem;
+}
+
+.site .flex-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.site .flex-container .item{
+    margin: 25px;
+    width: 20%;
+    min-height: 40vh;
+}
+.site .flex-container .item .exp{
+    text-align: center;
+}
+
+/* site section ends */
+/* solution section starts */
+
+.solution{
+    padding: .5rem;
+}
+.solution .flex-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.solution .flex-container .flex-item{
+    margin: 10px;
+    /* border: 1px solid blue; */
+    width: 48%;
+    min-height: 50vh;
+}
+.solution .flex-item .img6{
+    width: 95%;
+    height: 100%;
+    border-radius:0 25px 25px 0;
+}
+.solution .flex-item .simp{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.solution .flex-item p{
+    font-size: 1.4rem;
+}
+
+/* solution section ends */
+/* plans section starts */
+
+.plan{
+    padding-block: 1rem;
+}
+.plan .ipv{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.plan .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.plan .flex-container .flex-item{
+    margin: 20px;
+    width: 30%;
+    min-height: 30vh;
+}
+.plan .img7{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6rem;
+}
+.plan h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.plan p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* plans section ends */
+/* protection section starts */
+
+.protection{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:sans-serif ;
+}
+.protection .flex-container{
+    display: flex;
+    justify-content: center;
+}
+.protection .flex-container .flex-item{
+    margin: 15px;
+    width: 23%;
+    min-height: 30vh;
+}
+.protection .flex-container .flex-item p{
+    font-size: 1.05rem;
+}
+
+/* protection section ends */
+/* partnerships section starts */
+
+.partnership{
+    /* background-color: darksalmon; */
+}
+.partnership .flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.partnership .flex-container .flex-item{
+    margin: 10px;
+    width: 20%;
+    min-height: 30vh;
+}
+.partnership .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* partnerships section ends */
+/* faq section starts */
+
+.faq{
+    /* background-color: darkgoldenrod; */
+}
+.faq h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.faq li{
+    background-color: rgb(243, 238, 238);
+    font-size: 1.5rem;
+    margin: 15px;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+/* faq section ends */
+/* simplify section starts */
+
+.simplify{
+    padding-block : 3rem;
+}
+.simplify .flex-container{
+    display: flex;
+    justify-content: center;
+}
+.simplify .flex-container .flex-item{
+    width: 48%;
+    min-height: 30vh;
+    /* border: 1px solid black; */
+}
+.simplify .img13{
+    width: 100%;
+}
+.simplify .text{
+    text-align: center;
+    padding-block: 7rem;
+    padding-inline: 2rem;
+}
+.simplify .text .secure{
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+  
+.simplify .text a{
+    text-decoration: none;
+    color: white;
+    background-color:darkorange;
+    padding-block: 1rem;
+    padding-inline: 1.7rem;
+    border-radius: 5px;
+    font-size: 2rem;
+}
