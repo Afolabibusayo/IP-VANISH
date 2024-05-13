@@ -74,7 +74,6 @@
 .tracker .flex-container .flex-item .cqt{
     font-size: 35px;
     margin:0%;
-    /* margin-bottom: 7rem; */
 }
 .tracker .flex-container .flex-item .but{
     text-decoration: none;
@@ -310,11 +309,12 @@
 /* options section starts */
 
 .options{
-    background-color: black;
+    background-color: rgb(65, 63, 63);
     color:bisque;
 }
 .options .flex-container{
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     width: 80%;
 }
